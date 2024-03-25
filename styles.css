@@ -1,0 +1,55 @@
+/* styles.css */
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap");
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(4, 4, 45); /* Set background color to dark blue */
+    color: white; /* Set text color to white */
+  }
+  
+  audio {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 300px; /* Limit width for smaller screens */
+  }
+  
+  #songList {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  #listContainer {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  button {
+    background-color: white; /* Set button background color to white */
+    color: black; /* Set button text color to dark blue */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #f0f0f0; /* Light gray background on button hover */
+  }
+  
+  @media only screen and (max-width: 600px) {
+    /* Adjustments for small screens */
+    audio {
+      max-width: 90%; /* Adjust width for smaller screens */
+    }
+  }
+  

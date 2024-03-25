@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<widget
+    android-versionCode='1'
+    id='com.jeanf.JeanFtech'
+    version='1.0.0'
+    xmlns='http://www.w3.org/ns/widgets'>
+    
+    <name>JeanFtech</name>
+    <author>jeanf</author>
+    <preference name='orientation' value='portrait'/>
+</widget>
